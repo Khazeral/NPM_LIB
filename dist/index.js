@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("../../../../../../../../components/Modal");Object.keys(e).forEach((function(r){"default"===r||exports.hasOwnProperty(r)||Object.defineProperty(exports,r,{enumerable:!0,get:function(){return e[r]}})}));
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("../../../../../../../../components/Modal");Object.defineProperty(exports,"Modal",{enumerable:!0,get:function(){return e.Modal}});
