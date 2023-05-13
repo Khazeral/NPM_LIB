@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc && cp package.json README.md ./dist",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
