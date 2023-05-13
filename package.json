@@ -1,6 +1,6 @@
 {
   "name": "modale_npm_lib",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MargauxLeroy/modale_npm_lib.git"
+    "url": "git+https://github.com/Khazeral/modale_npm_lib.git"
   },
   "keywords": [
     "React",
@@ -65,6 +65,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@rollup/plugin-babel": "^6.0.3"
+    "@rollup/plugin-babel": "^6.0.3",
+    "nvm": "^0.0.4"
   }
 }
