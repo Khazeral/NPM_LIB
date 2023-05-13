@@ -1,6 +1,6 @@
 {
   "name": "@khazeral/npm_lib",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
   "main": "dist/index",
   "types": "dist/index.d.ts",
