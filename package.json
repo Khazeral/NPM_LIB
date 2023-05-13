@@ -1,5 +1,5 @@
 {
-  "name": "@khazeral/NPM_LIB",
+  "name": "@khazeral/npm_lib",
   "version": "1.0.8",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
   "main": "dist/index.js",
