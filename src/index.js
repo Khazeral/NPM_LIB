@@ -1,1 +1,1 @@
-export { Modal } from "../src/components/Modal/modal.tsx"
+export { Modal } from "../src/components/Modal/modal"
