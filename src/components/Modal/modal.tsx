@@ -8,7 +8,12 @@ type ModalProps = {
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 };
 
-export function Modal({ title, description, displayed, onClick }: ModalProps) {
+export const Modal = ({
+  title,
+  description,
+  displayed,
+  onClick,
+}: ModalProps) => {
   return (
     <div className="full-screen" data-display={displayed}>
       <div className="modale">
@@ -18,4 +23,4 @@ export function Modal({ title, description, displayed, onClick }: ModalProps) {
       </div>
     </div>
   );
-}
+};
