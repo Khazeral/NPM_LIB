@@ -1,6 +1,6 @@
 {
   "name": "@khazeral/npm_lib",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
   "main": "./dist/index.js",
   "types": "./dist/index.es.js",
@@ -15,7 +15,7 @@
     }
   },
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
