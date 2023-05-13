@@ -1,13 +1,13 @@
 {
   "name": "@khazeral/npm_lib",
-  "version": "1.0.30",
+  "version": "1.0.32",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
-  "main": "./dist/index",
-  "types": "./dist/index.es.js",
+  "main": "dist/index",
+  "types": "dist/index.es.js",
   "exports": {
     ".": {
-      "require": "./dist/react-component-library.cjs",
-      "import": "./dist/react-component-library.es.js"
+      "require": "./dist/index.js",
+      "import": "./dist/index.es.js"
     },
     "./styles.css": {
       "require": "./dist/styles.css",
