@@ -1,6 +1,6 @@
 {
   "name": "@khazeral/npm_lib",
-  "version": "1.0.26",
+  "version": "1.0.28",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
   "main": "./dist/index",
   "types": "./dist/index.es.js",
@@ -20,7 +20,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
-    "build": "yarn clean && tsc && cp package.json README.md ./dist",
+    "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
