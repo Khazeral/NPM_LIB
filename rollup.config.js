@@ -26,12 +26,11 @@ export default [
         minimize: true,
       }),
       typescript({
-        allowSyntheticDefaultImports: true,
-        jsx: "react",
+        tsconfig: "./tsconfig.json",
       }),
       babel({
         exclude: "node_modules/**",
-        presets: ["@babel/preset-react"],
+        presets: ["@babel/preset-react", "@babel/preset-typescript"],
       }),
       external(),
       resolve(),
