@@ -1,1 +1,1 @@
-export { Modal } from "./modal.tsx";
+export { Modal } from "../src/modal";

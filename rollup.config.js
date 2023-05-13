@@ -25,7 +25,10 @@ export default [
         plugins: [],
         minimize: true,
       }),
-      typescript(),
+      typescript({
+        allowSyntheticDefaultImports: true,
+        jsx: "react",
+      }),
       babel({
         exclude: "node_modules/**",
         presets: ["@babel/preset-react"],
