@@ -3,10 +3,11 @@ import resolve from "@rollup/plugin-node-resolve";
 import external from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
+import typescript from "rollup-plugin-typescript2";
 
 export default [
   {
-    input: "src/index.js",
+    input: "src/index.tsx",
     output: [
       {
         file: "dist/index.js",
@@ -29,6 +30,7 @@ export default [
       }),
       external(),
       resolve(),
+      typescript(),
       terser(),
     ],
   },
