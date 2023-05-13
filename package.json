@@ -1,6 +1,6 @@
 {
-  "name": "modale_npm_lib",
-  "version": "1.0.7",
+  "name": "NPM_LIB",
+  "version": "1.0.8",
   "description": "A simple react component library for the hrnet project (OpenClassrooms)",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -25,19 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Khazeral/modale_npm_lib.git"
+    "url": "git+https://github.com/Khazeral/NPM_LIB.git"
   },
-  "keywords": [
-    "React",
-    "OpenClassrooms",
-    "Modal"
-  ],
   "author": "Erwan Dehousse",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MargauxLeroy/modale_npm_lib/issues"
+    "url": "https://github.com/Khazeral/NPM_LIB/issues"
   },
-  "homepage": "https://github.com/MargauxLeroy/modale_npm_lib#readme",
+  "homepage": "https://github.com/Khazeral/NPM_LIB#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",
