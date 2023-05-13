@@ -3,6 +3,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import external from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
+import typescript from "@rollup/plugin-typescript";
 
 export default [
   {
@@ -24,6 +25,7 @@ export default [
         plugins: [],
         minimize: true,
       }),
+      typescript(),
       babel({
         exclude: "node_modules/**",
         presets: ["@babel/preset-react"],
