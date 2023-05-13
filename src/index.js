@@ -1,1 +1,1 @@
-export { Modal } from "../components/Modal/modal"
+export { Modal } from "./components/Modal/modal"
