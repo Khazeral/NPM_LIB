@@ -1,3 +1,3 @@
-import { Modal } from "./components/Modal/modal";
+import { Modal } from "./components/Modal";
 
 export { Modal };
